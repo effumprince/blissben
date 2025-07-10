@@ -1,0 +1,669 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 254, 254);
+}
+
+
+.content{
+    background: linear-gradient(to left, rgba(112, 112, 226, 0.699), rgb(91, 91, 240),rgb(68, 68, 209));
+    height: 95vh;
+    width: 100%;
+}
+
+.main{
+    background-color: white;
+    height: 80px;
+    box-shadow: 1px 1px 3px rgb(98, 107, 240);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
+.logo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-top: 20px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    gap: 450px;
+    margin-top: 0px;
+    
+}
+
+nav ul{
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+    
+}
+
+nav ul li{
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.hero{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 80px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    flex-wrap: wrap;
+    padding-top: 90px;
+    
+}
+
+
+.hero h1{
+    font-size: 45px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+margin-top: 50px;
+
+}
+.hero h3{
+    font-size: 28px;
+    color: white;
+}
+
+.hero p{
+color: white;
+font-size: 22px;
+margin-top: 20px;
+line-height: 30px;
+}
+
+.hero-btn{
+    display: flex;
+    gap: 30px;
+}
+
+.hero-btn button{
+    height: 50px;
+    width: 130px;
+    border-radius: 180px;
+    border: 2px solid white;
+}
+
+.hero-btn .p1 button{
+    background-color: white;
+}
+
+.hero-btn .p1 button a{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+    font-weight: 1000px;
+}
+
+.hero-btn .p2 button {
+background-color: transparent;
+
+}
+
+.hero-btn .p2 button a{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+
+.hero-img img{
+background-color: white;
+border: 5px solid white;
+box-shadow: 1px 1px 2px bue;
+border-radius: 15px;
+}
+
+
+.hero-about{
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+background: linear-gradient(to right,rgba(255, 255, 255, 0.966), rgba(255, 255, 255, 0.952), rgba(255, 255, 255, 0.966));
+
+
+}
+.aboutmain{
+    display: flex;
+    gap: 80px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hero-about h1{
+    padding-top: 30px;
+    font-size: 45px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.about p{
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(7, 7, 7, 0.87);
+    padding-top: 80px;
+    margin-left: 70px;
+}
+
+span{
+    color: blue;
+}
+
+
+.serve{
+    background-color: rgba(248, 248, 248, 0.911);
+    margin-top: 70px;
+    height: 83vh;
+}
+
+.serve h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+.serve .p1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+    font-size: 15px;
+
+}
+.main-serve{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.main-box{
+    background-color: white;
+    height: 330px;
+    width: 280px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 1px 1px 3px rgb(206, 204, 204);
+    border-radius: 12px;
+}
+
+.main-box .box1{
+    background-color: rgb(223, 218, 218);
+    height: 150px;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+.main-box .box1 i{
+    font-size: 60px;
+    margin-left: 110px;
+    margin-top: 50px;
+}
+
+.main-box .box1 svg{
+    margin-left: 110px;
+    margin-top: 50px;
+}
+
+.main-box h3{
+    margin-left: 15px;
+    margin-top: 30px;
+}
+
+
+
+.main-box p{
+    margin-left: 15px;
+    margin-top: 15px;
+    line-height: 23px;
+
+}
+
+
+
+.cli1{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.client h1{
+    text-align: center;
+    padding-top: 90px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 35px;
+}
+
+.cli2{
+    background-color: rgb(248, 248, 248);
+height: 240px;
+width: 380px;
+border-radius: 10px;
+line-height: ;
+}
+
+.cli2 p {
+    margin-top: 10px;
+    margin-left: 30px;
+    line-height: 25px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+.cli2 p i{
+    padding-top: 30px;
+    
+}
+
+.wee{
+    color: orange;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+
+.Me{
+    text-align: center;
+    margin-top: 90px;
+    background: linear-gradient(to left, rgb(107, 107, 235), rgb(82, 82, 233), rgb(50, 50, 247));
+    height: 370px;
+    color: white;
+}
+
+.Me h1{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 60px;
+}
+
+.Me p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+
+.me-btn{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.me-btn button{
+    height: 50px;
+    width: 230px;
+    margin-top: 30px;
+    border-radius: 30px;
+    border: 3px solid white;
+
+}
+
+.me-btn .btn2{
+    background-color: transparent;
+}
+
+
+.me-btn .btn2  a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.me-btn .btn1 a{
+    text-decoration: none;
+    color: blue;
+    font-size: 18px;
+}
+
+footer{
+    background-color: rgb(2, 2, 48);
+    height: 50vh;
+}
+
+.foot{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.foot .foot1{
+    margin-top: 50px;
+
+}
+
+.foot h3{
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.foot p{
+    color: rgba(255, 255, 255, 0.637);
+    font-size: 18px;
+}
+
+.foot1 p{
+    margin-top: 20px;
+    line-height: 25px;
+}
+.foot .foot2 {
+    margin-top: 50px;
+}
+
+.foot .foot3{
+    margin-top: 50px;
+}
+.foot .foot3 p{
+    margin-top: 20px;
+}
+
+.foot .foot3 p a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.637);
+    line-height: 33px;
+    
+}
+
+.foot .foot2 p{
+    line-height: 33px;
+    margin-top: 20px;
+}
+
+.foot .foot4 {
+    margin-top: 50px;
+
+}
+
+.foot .foot4 p {
+    margin-top: 20px;
+    line-height: 33px;
+}
+
+/* hr{
+    width: 90%;
+   background-color:  rgba(255, 255, 255, 0.438);
+   
+   margin-top: 13px;
+   margin-left: 50px;
+} */
+
+.feet{
+    text-align: center;
+    margin-top: 30px;
+    color:  rgba(255, 255, 255, 0.637);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+
+.big{
+    background-color: white;
+    box-sizing: 2px 2px 5px blue;
+} 
+
+
+/* about page */
+
+.about-me header{
+    background-color: white;
+    height: 80px;
+    box-shadow: 1px 1px 3px rgb(98, 107, 240);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.ben-content{
+    padding-top: 120px;
+}
+
+.ben-content h1{
+    color: white;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+.ben-content p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.about-me{
+    background: linear-gradient(to bottom, rgba(0, 0, 2, 0.61),rgba(0, 0, 3, 0.699),rgba(7, 0, 0, 0.651)),url(pic/kevin-wasilevski-BwgkT-5nP7U-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+
+.ben-section{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    flex-wrap:wrap;
+}
+
+.ben-begin h1{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+margin-top: 40px;
+color: rgb(46, 46, 219);
+}
+hr{
+    text-align: center;
+    width: 30%;
+    height: 1vh;
+    background-color: blue;
+}
+
+
+.ben-begin .p1{
+    font-size: 17.45px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    line-height: 28px;
+}
+
+.ben-begin p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17.45px;
+    line-height: 28px;
+    margin-top: 10px;
+}
+
+.ben-image img{
+    margin-top: 80px;
+    box-shadow: 1px 1px 4px rgba(7, 0, 0, 0.336);
+
+
+}
+
+.ben-image img:hover{
+transform: translateY(-12px);
+transition: 1s;
+}
+
+
+.core{
+    background-color: rgba(245, 245, 245, 0.664);
+    margin-top: 70px;
+    height: 80vh;
+    width: 100%;
+
+}
+
+.core h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px ;
+    padding-top: 20px;
+}
+
+.principles{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    gap: 50px;
+}
+
+.principles h1{
+    font-size: 20px;
+    text-align: left;
+}
+
+
+.mission{
+    background-color: white;
+    width: 520px;
+    height: 340px;
+    box-shadow: 1px 1px 8px rgb(247, 239, 239);
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+.mission .miss{
+    background: linear-gradient(to right, blue, rgb(162, 0, 255), rgb(255, 0, 255));
+height: 150px;
+width: 100%;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+
+
+
+}
+
+.miss i{
+   font-size: 70px;
+   margin-left: 230px;
+   margin-top: 30px;
+}
+
+.mission h1{
+    color: blue;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+.mission p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+
+.main-val{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+gap: 50px;
+text-align: center;
+
+}
+
+.val{
+    text-align: center;
+}
+
+.val h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    margin-top: 60px;
+}
+
+
+ .main-val .creative h3{
+font-family: sans-serif;
+    font-size: 25px;
+
+    margin-top: 50px;
+}
+
+.creative p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16.5px;
+    line-height: 25px;
+    margin-top: 20px;
+}
+
+.creative i{
+    font-size: 80px;
+    margin-top: 50px;
+}
+
+
+.team{
+    background-color: rgb(241, 241, 241);
+
+    margin-top: 100px;
+    text-align: center;
+    height: 100vh;
+}
+
+.team h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    padding-top: 40px;
+    color: blue;
+}
+
+.team p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17.5px;
+    margin-top: 10px;
+}
+
+.meet{
+    display: flex;
+    justify-content: center;
+flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.members .text h2{
+  font-family: sans-serif;
+  color: rgba(11, 11, 128, 0.788);
+  margin-top: 10px;
+}
+
+.members .text h4{
+   font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+.member-img img{
+    border-radius: 360px;
+    object-fit: cover;
+    border: 8px solid blue;
+}
+
+
+.members .text p{
+    font-size: 17.5px;
+}
+
