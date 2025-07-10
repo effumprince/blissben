@@ -740,7 +740,7 @@ header {
 }
 
 /* Navigation */
-/* .navigation ul {
+ .navigation ul {
     display: flex;
     list-style: none;
     gap: 1rem;
@@ -749,7 +749,7 @@ header {
 .navigation ul li a {
     text-decoration: none;
     color: #333;
-} */
+} 
 
 nav ul{
     display: flex;
