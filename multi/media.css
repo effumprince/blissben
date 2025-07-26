@@ -1,0 +1,199 @@
+@media (max-width: 320px){
+
+    body{
+        width: 100%;
+    }
+.content{
+    width: 100%;
+    height: auto;
+}
+
+.hero-img img{
+    width: 100%;
+}
+
+.main{
+    width: 100%;
+}
+.aboutmain img{
+    width: 100%;
+}
+
+.about p{
+    font-size: 20px;
+    margin-left: 0px;
+}
+
+.hero-about{
+    width: 100%;
+    height: auto;
+}
+
+.serve{
+    width: 100%;
+    height: auto;
+}
+.main-box{
+    width: 100%;
+    height: auto;
+}
+
+.client{
+    height: auto;
+}
+
+
+.cli2{
+    height: auto;
+    width: 80%;
+}
+
+.cli2 p{
+    margin-left: 0px;
+    font-size: 12px;
+}
+
+.Me{
+    height: auto;
+}
+
+footer{
+    height: auto;
+}
+
+}
+
+
+@media (min-width: 321px) and (max-width:375px ){
+
+.content{
+    height: auto;
+    width: 100%;
+}
+.hero{
+    padding-top: 0px;
+}
+.hero-img img{
+    width: 100%;
+}
+
+.aboutmain img{
+    width: 100%;
+}
+
+.about p{
+    margin-left: 0px;
+    font-size: 13px;
+    font-weight: 500;
+text-align: justify;
+}
+
+.serve{
+    height: auto;
+    width: 100%;
+    
+}
+
+.Me {
+    height: auto;
+}
+footer{
+    height: auto;
+}
+}
+
+@media (min-width: 376px) and (max-width: 390px){
+
+.content{
+    height: auto;
+    width: 100%;
+}
+.hero-img img{
+    width: 100%;
+}
+
+.aboutmain img{
+    width: 100%;
+}
+
+.about p{
+    font-size: smaller;
+    margin-left: 0px;
+    margin-top:-40px;
+}
+
+.hero-about{
+    height: auto;
+}
+
+.serve{
+    height: auto;
+}
+
+.Me{
+    height: auto;
+    
+}
+
+.me-btn button{
+    margin-bottom: 30px;
+}
+
+footer{
+    height: auto;
+}
+
+
+
+}
+
+
+@media (min-width: 390px) and (max-width: 425px){
+
+    .content{
+        height: auto;
+        width: 100%;
+    
+    }
+    
+    .hero-img img{
+        width: 100%;
+    }
+    .hero h1{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .hero p{
+        font-size: 25px;
+        margin-left: 20px;
+    }
+    
+   .aboutmain img{
+    width: 100%;
+   } 
+
+   .about p{
+    font-size: 14px;
+    margin-left: 0px;
+   }
+
+   .serve{
+    height: auto;
+
+
+   }
+
+   footer{
+    height: auto;
+    text-align: center;
+   }
+
+   .Me{
+    height: auto;
+   }
+    .me-btn .btn1{
+        margin-bottom: 20px;
+    }
+        
+    }
