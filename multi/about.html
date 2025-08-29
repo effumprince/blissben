@@ -3,38 +3,61 @@
 <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="shortcut icon" href="/pic/blis.jpg" type="image/x-icon">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <title>blissben|multimedia</title>
 </head>
 <body>
-<div class="about-me">
-<header>
-    <div class="logo">Blissben Multimedia</div>
-
-    <div>
-        <nav>
+    <div class="about-content">
+<section class="main">
+        <header>
+        <div class="logo"><b>Blissben Multimedia</b></div>
+        
+        <!-- Hamburger Button -->
+        <button class="hamburger">
+            <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+            </span>
+        </button>
+        
+        <!-- Navigation -->
+        <nav class="navigation">
             <ul>
                 <li><a href="/index.html">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">Gallery</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/services.html">Service</a></li>
+                <li><a href="/special.html">Gallery</a></li>
+                <li><a href="/contact.html">Contact</a></li>
             </ul>
         </nav>
-    </div>
-</header>
+    </header>
+</section>
 
 <section class="ben-content">
+     <div data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="900">
 <h1>About BlissBen Multimedia</h1>
 <p>where creativity meets precision in every projects</p>
+
+     </div>
 </section>
 </div>
 
 <section class="ben-section">
+     
     <div class="ben-begin">
         <h1>Our Humble Beginnings</h1>
            <hr>
+           <div data-aos="fade"
+        data-aos-easing="linear"
+        data-aos-duration="900">
         <p class="p1">Founded in 2019, BlissBen Multimedia has grown from a small <br>
             print shop to a  comprehensive creative hub.We started as a small <br>
              graphic design shop and now We specialize in <br>
@@ -49,11 +72,14 @@
                   all while maintaining our commitment to outstanding quality <br>
                    and customer service.
                </p>
+
+           </div>
     </div>
 
     <div class="ben-image">
         <img src="/pic/blis.jpg" alt="" height="300px" width="400px">
     </div>
+     
 </section>
 
 <section class="core">
@@ -185,7 +211,7 @@ passion for innovation.</p>
             
     <div class="members">
         <div class="member-img">
-        <img src="/pic/port.jpg" alt="" height="280px" width="280px">
+        <img src="/bca/2. Israel Prince Effum.jpg" alt="" height="280px" width="280px">
         </div>
         <div class="text">
         <h2>Israel Effum</h2>
@@ -235,12 +261,12 @@ passion for innovation.</p>
         <div class="foot3">
             <h3>Quick Links</h3>
             <p>
-                <a href="">Home</a>
+                <a href="/index.html">Home</a>
                 <br>
-                <a href="">About</a> <br>
-                <a href="">Services</a> <br>
-                <a href="">Gallery</a> <br>
-                <a href="">Contact</a>
+                <a href="/about.html">About</a> <br>
+                <a href="/services.html">Services</a> <br>
+                <a href="/special.html">Gallery</a> <br>
+                <a href="/contact.html">Contact</a>
             </p>
         </div>
 
@@ -262,7 +288,7 @@ passion for innovation.</p>
 
 </footer>
 
-
+<script src="script.js"></script>
 
 </body>
 </html>
