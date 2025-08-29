@@ -5,38 +5,44 @@
 }
 
 body{
-    background-color: rgb(255, 254, 254);
+    background-color: rgb(255, 255, 255);
 }
 
 
 .content{
-    background: linear-gradient(to left, rgba(112, 112, 226, 0.699), rgb(91, 91, 240),rgb(68, 68, 209));
-    height: 95vh;
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.748), rgba(0, 0, 0, 0.71),rgba(0, 0, 0, 0.775)),url(/images/freepik__the-style-is-candid-image-photography-with-natural__81876.jpg);
+    height: 86vh;
     width: 100%;
+    background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-attachment: fixed;
 }
 
 .main{
-    background-color: white;
-    height: 80px;
+    background-color: rgb(255, 255, 255);
+    height: 100px;
     box-shadow: 1px 1px 3px rgb(98, 107, 240);
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 999;
     
 }
 .logo{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     margin-top: 20px;
+    color: blue;
 }
-/* header{
+ /* header{
     display: flex;
     justify-content: center;
     gap: 450px;
     margin-top: 0px;
     
-}
-
+} */
+/*  
 nav ul{
     display: flex;
     gap: 40px;
@@ -58,10 +64,10 @@ nav ul li a{
 
 .hero{
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 80px;
-    margin-left: 0px;
+    margin-top: 100px;
+    margin-left: 50px;
     display: flex;
-    justify-content: center;
+    
     gap: 70px;
     flex-wrap: wrap;
     padding-top: 90px;
@@ -70,23 +76,23 @@ nav ul li a{
 
 
 .hero h1{
-    font-size: 45px;
+    font-size: 60px;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
-margin-top: 50px;
+margin-top: 120px;
 
 }
 .hero h3{
-    font-size: 28px;
+    font-size: 38px;
     color: white;
 }
 
 .hero p{
 color: white;
-font-size: 22px;
+font-size: 25px;
 margin-top: 20px;
-line-height: 30px;
+line-height: 35px;
 }
 
 .hero-btn{
@@ -133,6 +139,7 @@ border-radius: 15px;
 
 
 .hero-about{
+    
     padding-top: 30px;
     font-family: Arial, Helvetica, sans-serif;
 background: linear-gradient(to right,rgba(255, 255, 255, 0.966), rgba(255, 255, 255, 0.952), rgba(255, 255, 255, 0.966));
@@ -170,6 +177,7 @@ span{
     background-color: rgba(248, 248, 248, 0.911);
     margin-top: 70px;
     height: 83vh;
+    text-align: center;
 }
 
 .serve h1{
@@ -201,6 +209,11 @@ span{
     border-radius: 12px;
 }
 
+.main-box:hover{
+    transform: translateY(-12px);
+    transition: 1s;
+}
+
 .main-box .box1{
     background-color: rgb(223, 218, 218);
     height: 150px;
@@ -209,18 +222,19 @@ span{
 }
 .main-box .box1 i{
     font-size: 60px;
-    margin-left: 110px;
+    
     margin-top: 50px;
 }
 
 .main-box .box1 svg{
-    margin-left: 110px;
+   
     margin-top: 50px;
 }
 
 .main-box h3{
     margin-left: 15px;
     margin-top: 30px;
+    text-align: left;
 }
 
 
@@ -229,10 +243,44 @@ span{
     margin-left: 15px;
     margin-top: 15px;
     line-height: 23px;
+    text-align: left;
 
 }
 
 
+.sir-btn button{
+    padding: 15px;
+    background-color: blue;
+
+    margin-top: 50px;
+    border: 1px solid blue;
+    border-radius: 50px;
+}
+.sir-btn button:hover{
+background-color: black;
+}
+.sir-btn button a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+   
+}
+
+.sir-btn button i{
+    font-size: 20px;
+    margin-left: 10px;
+    border: 5px solid white;
+    background-color: white;
+    color: blue;
+    border-radius: 360px;
+    padding: 8px;
+}
+
+.sir-btn button i:hover{
+    transform: translateX(12px);
+    transition: 1s;
+}
 
 .cli1{
     display: flex;
@@ -406,11 +454,13 @@ footer{
 
 .feet{
     text-align: center;
-    margin-top: 30px;
+    margin-top: 50px;
     color:  rgba(255, 255, 255, 0.637);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
 }
+
+
 
 
 .big{
@@ -430,8 +480,19 @@ footer{
     width: 100%;
 }
 
+.about-content{
+    background: linear-gradient(rgba(0, 0, 0, 0.659),rgba(0, 0, 0, 0.719),rgba(0, 0, 0, 0.703)),url(/pic/services\ bac.png);
+    height: 60vh;
+    margin-top: 100px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
 .ben-content{
-    padding-top: 120px;
+    padding-top: 50px;
+    text-align: center;
 }
 
 .ben-content h1{
@@ -550,14 +611,15 @@ width: 100%;
 border-top-left-radius: 15px;
 border-top-right-radius: 15px;
 
-
+   text-align: center;
 
 }
 
 .miss i{
    font-size: 70px;
-   margin-left: 230px;
-   margin-top: 30px;
+    
+   margin-top: 30px; 
+
 }
 
 .mission h1{
@@ -620,7 +682,7 @@ font-family: sans-serif;
 
     margin-top: 100px;
     text-align: center;
-    height: 100vh;
+    height: 90vh;
 }
 
 .team h1{
@@ -675,8 +737,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
-    background: #f8f8f8;
+    padding: 1.5rem;
+   
+
 }
 
 .logo {
@@ -758,6 +821,7 @@ nav ul{
     display: flex;
     gap: 40px;
     margin-top: 30px;
+    margin-right: 30px;
     
 }
 
@@ -772,6 +836,11 @@ nav ul li a{
     font-family: Arial, Helvetica, sans-serif;
 
 }
+
+nav ul li a:hover{
+    color: blue;
+    
+}
 /* Mobile styles */
 @media (max-width: 768px) {
     .hamburger {
@@ -784,7 +853,7 @@ nav ul li a{
         top: 0;
         left: -100%;
         width: 70%;
-        height: 80vh;
+        height: 100%;
         background: #7e34f7;
         padding-top: 5rem;
         transition: left 0.3s;
@@ -807,4 +876,354 @@ nav ul li a{
     nav ul li a{
         color: white;
     }
+}
+
+
+
+.hero-pro{
+    text-align: center;
+}
+
+.hero-pro h1{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+}
+
+.hero-pro p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    margin-top: 10px;
+}
+
+.contanier-serve{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+gap: 80px;
+margin-top: 70px;
+}
+
+
+.list{
+    display: flex;
+   margin-top: 20px;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+.title{
+    display: flex;
+    gap: 20px;
+}
+
+.title .bac{
+    background-color: rgb(225, 222, 222);
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.title .bac i{
+    font-size: 30px;
+}
+
+.title p b{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    
+}
+
+.title .tee{
+    padding-top: 30px;
+}
+
+.text-serve .p1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+.list p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 33px;
+    
+}
+.hmmm{
+    box-shadow: 1px 1px 1px rgb(179, 172, 172);
+    border-radius: 15px;
+    height: 350px ;
+    width: 420px;
+    
+}
+
+.hmmm1{
+    box-shadow: 1px 1px 1px rgb(179, 172, 172);
+    border-radius: 15px;
+    height: 350px ;
+    width: 420px;
+}
+
+.hmmm img{
+    border-radius: 15px;
+    object-fit: cover;
+  
+}
+.hmmm1 img{
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.pricing{
+    background-color: rgba(243, 241, 241, 0.897);
+    height: 40vh;
+    width: 100%;
+    margin-top: 70px;
+
+}
+
+.price{
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.price h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+
+.price p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.work{
+    display: flex;
+    gap: 70px;
+}
+
+.work p{
+    text-align: right;
+}
+.hero-serve{
+    height: 60vh;
+    padding-top: 150px;
+    text-align: center;
+    padding-bottom: 200px;
+background: linear-gradient(rgba(0, 0, 0, 0.751), rgba(0, 0, 0, 0.685),rgba(0, 0, 0, 0.674)),url(/images/post-production-department-leader-advising-colleague-improve-colors-frames-quality-footage-creative-professional-video-editors-collaborating-order-finish-film-project-upon-deadline.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+    width: 100%;
+    margin-top: 90px;
+    background-attachment: fixed;
+
+}
+
+.hero-serve h1{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+}
+
+.hero-serve p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.contanier-serve{
+    margin-bottom: 50px;
+}
+
+/* gallery page */
+
+.gal-content{
+    padding-top: 190px;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.714), hsla(0, 0%, 0%, 0.704),rgba(0, 0, 0, 0.7)),url(/pic/gallery\ bac.png);
+height: 60vh;
+margin-top: 80px;
+background-size: cover;
+background-repeat: no-repeat ;
+background-position: center;
+}
+
+.gal-content h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+.gal-content p{
+color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.gal-works h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    
+}
+
+.gal-works{
+    margin-top: 80px;
+    justify-items: center;
+    
+}
+
+
+.navbar button{
+    background-color: white;
+    border: none;
+    /* box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.27); */
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    float: left;
+}
+
+.navbar button:hover{
+    background-color: white;
+    /* border: 2px solid white; */
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.497);
+transition: 0.5s;
+transform: scale(01.5rem);
+
+}
+
+.navbar a{
+    color: rgb(3, 0, 0);
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    flex-wrap: wrap;
+}
+
+.navbar ul{
+    list-style-type: none;
+    
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+
+
+
+.gal-image{
+    background-color: rgb(255, 255, 255);
+    height: 47vh;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.108);
+    width: 350px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
+
+.gal-image img{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+main{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-body{
+    background-color: rgba(207, 205, 205, 0.244);
+}
+
+
+.gal-image p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+
+
+.gal-des{
+    justify-items: center;
+    text-align: center;
+    height: 35vh;
+    background-color: white;
+    width: 60%;
+    padding-top: 60px;
+    
+    box-shadow: 1px 1px 5px rgba(192, 190, 190, 0.182);
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+
+.gal-des h1{
+    font-size: 30px;
+    color: blue;
+}
+
+.gal-des p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
+.gal-des button{
+    padding: 12px;
+    background-color: blue;
+    border: 2px solid blue;
+    margin-top: 10px;
+}
+
+.gal-des button a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+
+
+
+/* contact page */
+
+.contact-page{
+    margin-top: 100px;
+    height: 50vh;
+    text-align: center;
+    padding-top: 70px;
+    background: linear-gradient(rgba(0, 0, 0, 0.503), rgba(0, 0, 0, 0.503),rgba(0, 0, 0, 0.505)),url(/images/tobias-van-schneider-gCeCpP15V1o-unsplash.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+
+}
+
+
+.contact-page h1{
+    color: white;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 30px;
+}
+
+.contact-page p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    line-height: 30px;
 }
