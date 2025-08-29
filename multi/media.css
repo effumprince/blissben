@@ -1,11 +1,51 @@
+@media (max-width: 300px){
+    .hero-btn{
+        flex-wrap: wrap;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 320px){
 
     body{
-        width: 100%;
+   width: 100%;   
     }
 .content{
     width: 100%;
     height: auto;
+}
+.hero{
+    margin-left: 10px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.hero h1{
+    font-size: 45px;
+}
+
+.hero p{
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.hero-btn{
+    margin-bottom: 20px;
 }
 
 .hero-img img{
@@ -20,8 +60,10 @@
 }
 
 .about p{
-    font-size: 20px;
-    margin-left: 0px;
+    font-size: px;
+    margin: 10px;
+    margin-top: -70px;
+    
 }
 
 .hero-about{
@@ -29,12 +71,13 @@
     height: auto;
 }
 
+
 .serve{
     width: 100%;
     height: auto;
 }
 .main-box{
-    width: 100%;
+    width: 85%;
     height: auto;
 }
 
@@ -45,155 +88,977 @@
 
 .cli2{
     height: auto;
-    width: 80%;
+    width: 90%;
 }
 
 .cli2 p{
-    margin-left: 0px;
+    margin-left: 20px;
     font-size: 12px;
 }
 
 .Me{
     height: auto;
 }
+.Me p{
+    font-size: 15px;
+}
 
+.Me h1{
+    font-size: 30px;
+}
+
+.me-btn{
+    gap: 10px;
+}
+.me-btn .btn1{
+    margin-bottom: 20px;
+    
+
+}
+.me-btn .btn1 a{
+    font-size: 15px;
+}
+.me-btn .btn2 a{
+    font-size: 15px;
+}
 footer{
     height: auto;
 }
 
-}
 
-
-@media (min-width: 321px) and (max-width:375px ){
-
-.content{
+.ben-content{
     height: auto;
     width: 100%;
+    padding-top: 10px;
+    text-align:left ;
 }
-.hero{
+.ben-content h1{
+    font-size: 40px;
     padding-top: 0px;
 }
-.hero-img img{
+
+.ben-image img{
     width: 100%;
 }
 
-.aboutmain img{
-    width: 100%;
-}
-
-.about p{
-    margin-left: 0px;
-    font-size: 13px;
-    font-weight: 500;
-text-align: justify;
-}
-
-.serve{
+.ben-section{
     height: auto;
+}
+
+.ben-begin .p1{
+    font-size: 10.5px;
+    line-height: 20px;
+    margin-left: 5px;
+}
+
+.ben-begin p{
+     font-size: 10.5px;
+    line-height: 20px;
+    margin-left: 5px;
+}
+
+.core{
+    height: auto;
+}
+
+.mission{
+    margin-top: 20px;
+    width: 90%;
+    height: auto;
+}
+
+.val{
+    height: auto;
+}
+
+.creative p{
+    font-size: 14.5px;
+}
+
+.team{
+    height: auto;
+}
+
+
+
+
+.hmmm{
+    width: 95%;
+}
+.hmmm1 {
+   width: 95%;
+ 
+}
+.hmmm img{
     width: 100%;
+
     
 }
 
-.Me {
-    height: auto;
+.hmmm1 img{
+        width: 100%;
 }
-footer{
-    height: auto;
-}
+.list{
+    gap: 0px;
 }
 
-@media (min-width: 376px) and (max-width: 390px){
+.list p{
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.hero-serve{
+    padding-top: 150px;
+    padding-bottom: 10px;
+}
+
+.hero-serve h1{
+    font-size: 40px;
+}
+
+.hero-serve p{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.hero-pro p{
+    font-size: 16px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+/* gallery */
+.gal-content{
+    padding-top: 150px;
+}
+.gal-content h1{
+    font-size: 40px;
+}
+
+.gal-content p{
+    font-size: 18px;
+}
+
+.navbar a{
+    font-size: 13px;
+}
+
+.navbar button{
+    float: none;
+    margin-top: 10px;
+}
+
+.gal-image{
+    width: 90%;
+}
+
+.gal-image img{
+    width: 100%;
+}
+
+.gal-des{
+    height: auto;
+    width: 100%;
+}
+
+.contact-page h1{
+    font-size: 40px;
+}
+
+.contact-page p{
+    font-size: 18px;
+    padding: 10px;
+    line-height: 25px;
+}
+
+}
+
+
+@media (max-width: 345px) and (min-width: 321px){
+    .content{
+        width: 100%;
+        height: auto;
+    }
+
+    .hero{
+        margin-left: 10px;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+
+    .hero h1{
+        font-size: 50px;
+    }
+
+    .hero p{
+        
+        line-height: 30px;
+    }
+
+    .hero-btn{
+        margin-bottom: 20px;
+    }
+    .hero-img img{
+        width: 100%;
+    }
+
+    .hero-about img{
+        width: 100%;
+    }
+
+    .hero-about p{
+        font-size: auto;
+        font-display: auto;
+        margin: 30px;
+    padding-top: 0px;
+    }
+
+
+    .serve{
+        height: auto;
+    }
+
+    .client{
+height: auto;
+    }
+
+    .cli2{
+        width: 95%;
+        height: auto;
+    }
+
+    .cli2 p{
+        font-size: 14px;
+    }
+
+    .Me{
+        height: auto;
+    }
+
+    .Me h1{
+        font-size: 30px;
+    }
+
+    .Me p{
+        font-size: 18px;
+    }
+
+    .me-btn .btn2{
+        margin-bottom: 20px;
+    }
+
+    footer{
+        height: auto;
+    }
+
+
+    .ben-content{
+        height: auto;
+        width: 100%;
+        padding-top: 10px;
+        text-align: left;
+        
+    }
+    .ben-content h1{
+        margin-left: 20px;
+        font-size: 45px;
+    }
+.ben-content p{
+    margin-left: 20px;
+}
+    .ben-image img{
+        width: 100%;
+    }
+
+    .ben-section{
+        height: auto;
+    }
+
+    .ben-begin .p1{
+        font-size: 18px;
+        padding: 18px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .ben-begin p{
+         font-size: 18px;
+        padding: 18px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .core{
+        height: auto;
+    }
+
+
+    .mission{
+        margin-top: 10px;
+        height: auto;
+        width: 90%;
+    }
+
+    .team{
+        height: auto;
+    }
+
+    .creative p{
+        font-size: 15px;
+    }
+
+    .members .text p{
+        font-size: 14.5px;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+
+    .hmmm img{
+        width: 100%;
+    }
+
+    .hmmm{
+        width: 90%;
+    }
+
+    .hmmm1 img{
+        width: 100%;
+    }
+
+    .hmmm1{
+        width: 90%;
+    }
+
+    .text-serve{
+        gap: 0px;
+    }
+    .list{
+        gap: 0px;
+    }
+
+    .list p{
+        margin-left: 20px;
+        font-size: 14px;
+    }
+
+    .title p b{
+        font-size: 20px;
+    }
+
+    .hero-pro p{
+        font-size: 15px;
+        margin: 20px;
+        text-align: left;
+    }
+    .contanier-serve{
+        margin: 20px;
+    }
+
+    .text-serve .p1{
+        font-size: 16px;
+    }
+
+    .hero-serve h1{
+        font-size: 38px;
+    }
+
+    .gal-content{
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .gal-content p{
+        padding-bottom: 80px;
+        padding-top: 0px;
+        font-size: 18px;
+    }
+
+    .gal-content h1{
+        font-size: 40px;
+    }
+}
+
+
+@media (max-width: 376px) and (min-width: 345px) {
+.hero{
+    height: auto;
+    padding-top: 80px;
+    margin-left: 10px;
+}
 
 .content{
     height: auto;
     width: 100%;
 }
-.hero-img img{
+
+.hero-about img{
     width: 100%;
 }
 
-.aboutmain img{
-    width: 100%;
+.hero-btn{
+    margin-bottom: 20px;
+}
+
+.hero h1{
+    margin-top: 5px;
+    font-size: 45px;
+}
+
+.hero p{
+    font-size: 18px;
+    line-height: 25px;
 }
 
 .about p{
-    font-size: smaller;
-    margin-left: 0px;
-    margin-top:-40px;
-}
-
-.hero-about{
-    height: auto;
+margin-left: 0px;
+font-size: 11.5px;
+padding-top: 0px;
+padding: 20px;
+font-weight: 500;
 }
 
 .serve{
     height: auto;
+}
+
+.cli2{
+    width: 90%;
+    height: auto;
+}
+
+.cli2 p{
+    font-size: 15px;
 }
 
 .Me{
     height: auto;
-    
-}
-
-.me-btn button{
-    margin-bottom: 30px;
 }
 
 footer{
     height: auto;
 }
 
+.ben-content{
+    height: auto;
+    padding-top: 5px;
+    width: 100%;
+    text-align: left;
+
+}
+
+.ben-content h1{
+    font-size: 45px;
+}
+
+.ben-section{
+    height: auto;
+}
+
+.ben-begin .p1{
+    font-size: 0.75rem;
+    padding: 10px;
+    font-weight: 700px;
+
+}
+.ben-begin h1{
+    font-size: 20px;
+}
+hr{
+    margin-top: 5px;
+}
+
+.ben-begin p{
+    font-size: 0.75rem;
+    padding: 10px;
+    font-weight: 700px;
+}
+
+.core{
+    height: auto;
+}
+
+.mission{
+    width: 90%;
+    height: auto;
+}
+.core h1{
+    font-size: 30px;
+}
+
+.mission p{
+    margin-bottom: 5px;
+}
+
+.team{
+    height: auto;
+}
+
+.members .text p{
+    font-size: 0.9rem;
+}
+
+.ben-image img{
+    width: 100%;
+}
+
+
+.hmmm{
+    width: 90%;
+}
+
+.hmmm img{
+    width: 100%;
+}
+
+
+.hmmm1{
+    width: 90%;
+}
+
+.hmmm1 img{
+width: 100%;
+}
+
+.hero-serve h1{
+    font-size: 45px;
+}
+
+.hero-serve p{
+    font-size: 20px;
+}
+
+.list{
+    gap: 0px;
+}
+
+.contanier-serve{
+    padding: 10px;
+}
+
+.hero-pro p{
+    font-size: 15px;
+    text-align: left;
+    padding: 2px;
+}
+
+.contact-page h1{
+    font-size: 40px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.contact-page p{
+    text-align: left;
+    font-size: 15px;
+    margin-left: 10px;
+}
+}
+
+
+@media (max-width: 426px) and (min-width: 376px){
+    .content{
+        height: auto;
+        width: 100%;
+    }
+
+    .hero{
+        padding-top: 0px;
+        margin-left: 5px;
+    }
+
+    .hero-btn{
+        margin-bottom: 20px;
+    }
+
+    .hero-about img{
+        width: 100%;
+    }
+
+    .about p{
+        margin-left: 0px;
+        font-size: 14px;
+        padding-top: 5px;
+
+    }
+
+    .serve{
+        height: auto;
+    }
+    footer{
+        height: auto;
+    }
+
+    .ben-content{
+        height: auto;
+        padding-top: 20px;
+        text-align: left;
+       
+    }
+
+    .ben-content h1{
+        margin-left: 20px;
+        font-size: 40px;
+    }
+
+    .ben-content p{
+        margin-left: 20px;
+        font-size: 20px;
+    }
+.ben-begin .p1{
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.ben-begin p{
+    font-size: 14px;
+    margin-left: 10px; 
+}
+
+.ben-begin h1{
+    font-size: 25px;
+}
+
+hr{
+    margin-top: 10px;
+}
+
+
+
+.core{
+    height: auto;
+}
+
+.core h1{
+    font-family: 20px;
+}
+
+.mission{
+    width: 90%;
+    height: auto;
+}
+
+.mission p{
+    font-size: 12px;
+
+}
+
+.team{
+    height: auto;
+}
+
+
+.hero-serve h1{
+    font-size: 45px;
+}
+
+.hero-serve p{
+    font-size: 20px;
+}
+
+.list{
+    gap: 0px;
+}
+
+.hmmm{
+    width: 90%;
+}
+
+.hmmm img{
+    width: 100%;
+}
+
+
+.hmmm1{
+    width: 90%;
+}
+
+.hmmm1 img{
+width: 100%;
+}
+.contanier-serve{
+    padding: 30px;
+}
+
+.hero-pro p{
+    font-size: 16px;
+    text-align: left;
+    padding: 10px;
+}
+}
+
+@media (min-width: 426px) and (max-width: 531px){
+    .content{
+        height: auto;
+        width: 100%;
+    }
+
+    .hero {
+        margin-left: 10px;
+        margin-top: 0px;
+    }
+
+    .hero p{
+        font-size: 17px;
+    }
+
+    .hero h1{
+        font-size: 45px;
+    }
+
+    .hero-btn{
+        margin-bottom: 20px;
+    }
+
+    .hero-about{
+        height: auto;
+    }
+
+    .hero-about p{
+        font-size: 18px;
+        margin-left: 0px;
+    }
+
+    .serve{
+        height: auto;
+    }
+
+    .sir-btn button{
+        margin-bottom: 20px;
+    }
+
+    footer{
+        height: auto;
+    }
+
+    .core{
+        height: auto;
+    }
+
+    .team{
+        height: auto;
+    }
+
+.hero-pro{
+    padding: 20px;
+}
+
+.contanier-serve{
+    padding: 20px;
+}
+
+}
+
+
+@media (min-width: 532px) and (max-width: 768px ){
+    .content{
+        height: auto;
+    }
+
+    .hero{
+        padding-top: 0px;
+        margin-left: 20px;
+    }
+
+    .hero h1{
+        font-size: 40px;
+        margin-top: 30px;
+    }
+
+    .hero p{
+        font-size: 18px;
+    }
+
+    .hero-btn{
+        margin-bottom: 30px;
+    }
+
+
+    .hero-about p{
+        margin-left: 0px;
+        padding-top: 20px;
+    }
+
+    .serve{
+        height: auto;
+    }
+
+    footer{
+        height: auto;
+    }
+
+    .core{
+        height: auto;
+    }
+
+    .team{
+        height: auto;
+    }
+
+    .hero-pro p{
+        font-size: 14px;
+    }
+
+    .title p b{
+        font-size: 20px;
+    }
+
+    .list p{
+        font-size: 14px;
+    }
+
+    .text-serve .p1{
+        font-size: 14px;
+    }
+
+    .hmmm{
+        width: 250px;
+        height: 280px;
+    }
+
+    .hmmm1{
+        width: 250px;
+        height: 280px;
+    }
+    .hmmm1 img{
+       height: 100%;
+width: 100%; 
+    }
+
+    .hmmm img{
+height: 100%;
+width: 100%;
+    }
+
+    .contanier-serve{
+        flex-wrap: nowrap;
+        padding: 20px;
+    }
+}
+
+
+@media (max-width: 1210px) and (min-width: 769px){
+    .content{
+        height: auto;
+
+    }
+
+    .hero{
+        padding-top: 20px;
+        margin-left: 10px;
+    }
+
+    .hero-btn{
+        margin-bottom: 30px;
+    }
+
+    .hero-about{
+        height: auto;
+        
+    }
+.aboutmain{
+    flex-wrap: nowrap;
+}
+
+.about p{
+    font-size: 14px;
+    margin-left: 10px;
+    padding-top: 0px;
+}
+.aboutmain img{
+    height: 160px;
+    width: 250px;
+    margin-top: 20px;
+    
+}
+
+    .serve{
+        height: auto;
+    }
+footer{
+    height: auto;
+    margin-top: -250px;
+}
+    
+
+.core{
+    height: auto;
+}
+
+.principles{
+    flex-wrap: nowrap;
+
+    height: auto;
+}
+
+
+.mission{
+    width: 460px;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.mission p{
+    padding-bottom: 5px;
+    margin-left: 3px;
+}
+
+.team{
+    height: auto;
+}
+
+.meet{
+    flex-wrap: nowrap;
+}
+
+.members .text p{
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.contanier-serve{
+    flex-wrap: nowrap;
+    padding: 20px;
+}
+
+
 
 
 }
 
 
-@media (min-width: 390px) and (max-width: 425px){
+@media (max-width: 1440px) and (min-width: 1210px){
+    footer{
+        height: auto;
+    }
+
+    .serve{
+        height: auto;
+    }
+
+    .sir-btn button{
+        margin-bottom: 30px;
+    }
 
     .content{
-        height: auto;
-        width: 100%;
-    
-    }
-    
-    .hero-img img{
-        width: 100%;
-    }
-    .hero h1{
-        margin-left: 20px;
-        margin-top: 10px;
-    }
-
-    .hero p{
-        font-size: 25px;
-        margin-left: 20px;
-    }
-    
-   .aboutmain img{
-    width: 100%;
-   } 
-
-   .about p{
-    font-size: 14px;
-    margin-left: 0px;
-   }
-
-   .serve{
-    height: auto;
-
-
-   }
-
-   footer{
-    height: auto;
-    text-align: center;
-   }
-
-   .Me{
-    height: auto;
-   }
-    .me-btn .btn1{
-        margin-bottom: 20px;
-    }
+        justify-items: center;
+        text-align: center;
+        height: 100%;
+        padding-bottom: 70px;
         
     }
+
+    .hero{
+        padding-top: 0px;
+    }
+.hero-btn{
+    justify-self: center;
+    
+}
+
+}
+
+
+
+
+
+
